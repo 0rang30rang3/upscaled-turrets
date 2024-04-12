@@ -1,0 +1,54 @@
+type: "ItemTurret"
+  name: "Dodeca"
+  description:"big duo."
+ size:6
+  reload:35
+  requirements:[
+  copper/2500
+lead/2000
+  graphite/3500
+  silicon/1500
+  surge-alloy/800
+  ]
+  shoot:{
+shots:5
+  shotDelay:5
+  }
+coolant:{
+type:"ConsumeCoolant"
+  allowGas:false
+allowLiquid:true
+  amount:5
+  }
+inaccuracy:1
+  range:130
+  category:"turret"
+  shootSound:"shoot"
+outlineColor:"42413e"
+  research:{
+parent:"duo"
+  requirements:[
+copper/8000
+lead/5000
+  titanium/2000
+  thorium/1500
+  silicon/1000
+  ]
+  }
+targetGround:true
+  targetAir:true
+  ammoTypes:{
+phase-fabric:{
+bulletType:"BasicBulletType"
+  width:15
+  height:25
+  speed:5
+  lifeTime:190
+  collidesGround:true
+  collidesAir:true
+  ammoMultiplier:1
+  damage:24
+}
+}
+
+  
