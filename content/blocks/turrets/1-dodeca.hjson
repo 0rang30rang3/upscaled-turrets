@@ -11,17 +11,32 @@ lead/2000
   surge-alloy/800
   ]
   shoot:{
-shots:5
-  shotDelay:5
-  }
+firstShotDelay: 35
+type: ShootMulti
+source: ShootAlternate
+dest: [
+{
+type: ShootBarrel
+shots: 3
+shotDelay: 5
+barrels: [
+4, -60, 0,
+4, 60, 0,
+-14, 91, 0,
+14, 91, 0,
+]
+}
+]
+}
+  
 coolant:{
 type:"ConsumeCoolant"
   allowGas:false
 allowLiquid:true
-  amount:5
+  amount:1
   }
 inaccuracy:1
-  range:130
+  range:250
   category:"turret"
   shootSound:"shoot"
 outlineColor:"42413e"
@@ -43,7 +58,7 @@ bulletType:"BasicBulletType"
   width:15
   height:25
   speed:5
-  lifeTime:190
+  lifeTime:260
   collidesGround:true
   collidesAir:true
   ammoMultiplier:1
