@@ -2,7 +2,8 @@ type: "ItemTurret"
   name: "Dodeca"
   description:"big duo."
  size:6
-  reload:35
+  reload:20
+recoil:0.5
   requirements:[
   copper/2500
 lead/2000
