@@ -21,6 +21,8 @@ shoot: {
   firstShotDelay:20
   shots: 1
   shotDelay: 11
+pierce: true
+pierceCap: 15
 }
 ammoPerShot: 9
 shootSound: shoot-heavy-cannon
@@ -40,9 +42,11 @@ ammoTypes: {
     damage: 1500
     ammoMultiplier: 1
 type:BasicBulletType
-width: 25
-length: 33
+width: 60
+length: 80
 speed: 15
+splashDamage:200
+splashDamageRadius:50
   }
   }
 drawer: {
