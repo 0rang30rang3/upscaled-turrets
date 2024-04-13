@@ -39,6 +39,7 @@ ammoTypes: {
     reloadMultiplier: 0.75
     damage: 1500
     ammoMultiplier: 1
+type:BasicBulletType
   }
   }
 drawer: {
