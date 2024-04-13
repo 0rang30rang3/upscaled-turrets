@@ -13,7 +13,6 @@ lead/2000
   ]
   shoot:{
 firstShotDelay: 35
-type: ShootMulti
 dest: [
 {
 type: ShootBarrel
