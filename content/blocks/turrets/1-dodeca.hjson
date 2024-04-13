@@ -3,7 +3,7 @@ type: "ItemTurret"
   description:"big duo."
  size:6
   reload:20
-recoil:0.5
+recoil:2.5
   requirements:[
   copper/2500
 lead/2000
@@ -18,8 +18,8 @@ type:shootMulti
 dest: [
 {
 type: ShootBarrel
-shots: 3
-shotDelay: 5
+shots: 6
+shotDelay: 10
 barrels: [
 -1, 10, 0,
 1, 10, 0,
