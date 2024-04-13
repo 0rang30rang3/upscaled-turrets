@@ -41,7 +41,6 @@ ammoTypes: {
     ammoMultiplier: 1
   }
   }
-}
 drawer: {
   type: DrawTurret
   basePrefix: -base
