@@ -20,8 +20,15 @@ dest: [
 type: ShootBarrel
 shots: 6
 shotDelay: 4
+barrels:[
+1, 0, 0,
+-1, 0, 0,
+3, -2, 0,
+-3, -2, 0
+]
 }
 ]
+}
   
 coolant:{
 type:"ConsumeCoolant"
