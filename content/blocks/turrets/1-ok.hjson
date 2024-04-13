@@ -1,1 +1,48 @@
-
+type: ItemTurret
+name: Ok
+description: big hail. 
+size: 6
+reload: 55
+range: 560
+targetAir: true
+targetGround: true
+moveWhileCharging: true
+accurateDelay: false
+outlineColor: 42413e
+chargeSound: lasercharge2
+researchCostMultiplier: 0.5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 3
+}
+shoot: {
+  firstShotDelay:20
+  shots: 1
+  shotDelay: 11
+}
+ammoPerShot: 9
+shootSound: shoot-heavy-cannon
+shootEffect: shootTitan
+smokeEffect: shootSmokeTitan
+category: turret
+research: hail
+requirements: [
+  surge-alloy/1600
+  silicon/9000
+  plastanium/4000
+copper/16000
+]
+ammoTypes: {
+  surge-alloy: {
+    reloadMultiplier: 0.75
+    damage: 1500
+    ammoMultiplier: 1
+  }
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: -base
+}
