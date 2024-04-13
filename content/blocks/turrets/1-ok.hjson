@@ -40,6 +40,9 @@ ammoTypes: {
     damage: 1500
     ammoMultiplier: 1
 type:BasicBulletType
+width: 25
+length: 33
+speed: 15
   }
   }
 drawer: {
