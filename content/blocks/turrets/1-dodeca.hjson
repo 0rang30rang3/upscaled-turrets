@@ -19,14 +19,7 @@ dest: [
 {
 type: ShootBarrel
 shots: 6
-shotDelay: 10
-barrels: [
--1, 10, 0,
-1, 10, 0,
--3, 17, 0,
-3, 17, 0,
-]
-}
+shotDelay: 4
 ]
 }
   
