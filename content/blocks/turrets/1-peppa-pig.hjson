@@ -1,0 +1,62 @@
+type: "ItemTurret"
+  name: "Peppa Pig"
+  description:"peppa pig."
+ size: 5
+health: 314159
+  reload:120
+recoil:5
+  requirements:[
+  copper/3300
+  thorium/1200
+lead/2800
+  titanium/1500
+  silicon/500
+  surge-alloy/200
+plastanium/500
+]
+  shoot:{
+   type: ShootAlternate
+   shots: 25
+   spread: 6
+   shotDelay: 8
+}
+shootEffect: shootTitan
+coolant:{
+type:"ConsumeCoolant"
+  allowGas:false
+allowLiquid:true
+  amount:1
+  }
+inaccuracy:0
+  range:440
+  category:"turret"
+  shootSound:"shootTitan"
+outlineColor:"42413e"
+  research:{
+parent:"core-shard"
+  requirements:[
+copper/8000
+lead/5000
+  titanium/2000
+  thorium/1500
+  silicon/1000
+  ]
+  }
+targetGround:true
+  targetAir:true
+  ammoTypes:{
+silicon:{
+bulletType:"BasicBulletType"
+  width:9
+  height:25
+  speed:15
+knockback: 3
+  lifeTime:450
+  collidesGround:true
+  collidesAir:true
+  ammoMultiplier:1
+  damage:200
+}
+}
+base: 1-peppa-pig-base
+   
