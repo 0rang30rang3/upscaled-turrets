@@ -51,8 +51,8 @@ silicon:{
 bulletType:"BasicBulletType"
   width:9
   height:25
-  speed:15
-knockback: 3
+  speed:25
+knockback: 30
   lifeTime:450
   collidesGround:true
   collidesAir:true
