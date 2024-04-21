@@ -20,7 +20,7 @@ plastanium/500
    spread: 6
    shotDelay: 1
 }
-shootEffect: shootTitan
+shootEffect: shootBig
 coolant:{
 type:"ConsumeCoolant"
   allowGas:false
@@ -30,7 +30,7 @@ allowLiquid:true
 inaccuracy:0
   range:440
   category:"turret"
-  shootSound:"shootXyloNorm"
+  shootSound:"p"
 outlineColor:"42413e"
   research:{
 parent:"core-shard"
