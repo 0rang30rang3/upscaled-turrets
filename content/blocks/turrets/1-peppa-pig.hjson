@@ -30,7 +30,8 @@ allowLiquid:true
 inaccuracy:0
   range:440
   category:"turret"
-  shootSound:"p"
+  loopSound: p
+loopSoundVolume: 0.7f
 outlineColor:"42413e"
   research:{
 parent:"core-shard"
