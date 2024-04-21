@@ -16,8 +16,8 @@ plastanium/1300
   shoot:{
    type: ShootAlternate
    shots: 5
-   spread: 12
-   shotDelay: 4
+   spread: 13
+   shotDelay: 8
 }
  shootSound: shootBig
 shootEffect: shootBig
@@ -60,14 +60,14 @@ knockback: 3
 graphite:{
 width: 20
 height: 15
-speed:6.5
+speed:8
 trailWidth: 15
 trailHeight: 22
 trailColor: caf0f8
 lifetime: 500
 collidesGround: true
 collidesAir: true
-ammoMultiplier: 1.5
+ammoMultiplier: 1
 knockback: 0.8
 damage: 86
 }
