@@ -1,1 +1,72 @@
-
+type: "ItemTurret"
+  name: "Phantasm"
+  description:"big spectre."
+ size: 10
+  reload:5
+recoil:5
+  requirements:[
+  copper/3300
+lead/2800
+  titanium/1300
+  silicon/1700
+  surge-alloy/1200
+plastanium/1300
+]
+  shoot:{
+   type: ShootAlternate
+   shots: 5
+   spread: 4
+   shotDelay: 4
+}
+  
+coolant:{
+type:"ConsumeCoolant"
+  allowGas:false
+allowLiquid:true
+  amount:1
+  }
+inaccuracy:0
+  range:650
+  category:"turret"
+  shootSound:"shoot"
+outlineColor:"42413e"
+  research:{
+parent:"spectre"
+  requirements:[
+copper/8000
+lead/5000
+  titanium/2000
+  thorium/1500
+  silicon/1000
+  ]
+  }
+targetGround:true
+  targetAir:true
+  ammoTypes:{
+phase-fabric:{
+bulletType:"BasicBulletType"
+  width:15
+  height:25
+  speed:5
+  lifeTime:450
+  collidesGround:true
+  collidesAir:true
+  ammoMultiplier:1
+  damage:24
+}
+graphite:{
+width: 20
+height: 15
+speed:6.5
+trailWidth: 15
+trailHeight: 22
+trailColor: caf0f8
+lifetime: 500
+collidesGround: true
+collidesAir: true
+ammoMultiplier: 1.5
+damage: 16
+}
+}
+base: 1-phantasm-base
+  
