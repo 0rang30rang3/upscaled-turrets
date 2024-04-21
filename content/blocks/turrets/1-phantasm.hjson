@@ -18,6 +18,8 @@ plastanium/1300
    shots: 5
    spread: 12
    shotDelay: 4
+shootSound: shootBig
+shootEffect: shootTitan
 }
   
 coolant:{
