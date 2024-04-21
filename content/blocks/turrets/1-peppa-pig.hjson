@@ -30,6 +30,7 @@ allowLiquid:true
 inaccuracy:0
   range:440
   category:"turret"
+shootSound: none
   loopSound: p
 loopSoundVolume: 0.7f
 outlineColor:"42413e"
