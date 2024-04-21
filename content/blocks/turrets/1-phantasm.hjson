@@ -19,7 +19,7 @@ plastanium/1300
    spread: 12
    shotDelay: 4
 shootSound: shootBig
-shootEffect: shootTitan
+shootEffect: shootBig
 }
   
 coolant:{
@@ -55,7 +55,7 @@ knockback: 3
   lifeTime:450
   collidesGround:true
   collidesAir:true
-  ammoMultiplier:0.5
+  ammoMultiplier:1
   damage:10
 }
 graphite:{
@@ -70,7 +70,7 @@ collidesGround: true
 collidesAir: true
 ammoMultiplier: 1.5
 knockback: 0.8
-damage: 55
+damage: 86
 }
 }
 base: 1-phantasm-base
