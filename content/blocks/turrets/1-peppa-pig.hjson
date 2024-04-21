@@ -56,8 +56,10 @@ knockback: 3
   collidesAir:true
   ammoMultiplier:2
   damage:230
+bullet:{
 backColor: 8ad19d
 frontColor: 5dc97a
+}
 }
 }
 base: 1-peppa-pig-base
