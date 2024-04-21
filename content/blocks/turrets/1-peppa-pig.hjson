@@ -3,7 +3,7 @@ type: "ItemTurret"
   description:"peppa pig."
  size: 5
 health: 314159
-  reload:120
+  reload:35
 recoil:5
   requirements:[
   copper/3300
@@ -30,7 +30,7 @@ allowLiquid:true
 inaccuracy:0
   range:440
   category:"turret"
-  shootSound:"shootXylo_1"
+  shootSound:"shootXyloNorm"
 outlineColor:"42413e"
   research:{
 parent:"core-shard"
@@ -55,7 +55,7 @@ knockback: 3
   collidesGround:true
   collidesAir:true
   ammoMultiplier:2
-  damage:200
+  damage:230
 }
 }
 base: 1-peppa-pig-base
