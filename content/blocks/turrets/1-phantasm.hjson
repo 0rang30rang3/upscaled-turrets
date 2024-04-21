@@ -2,6 +2,7 @@ type: "ItemTurret"
   name: "Phantasm"
   description:"big spectre."
  size: 10
+health: 1400
   reload:5
 recoil:5
   requirements:[
@@ -15,7 +16,7 @@ plastanium/1300
   shoot:{
    type: ShootAlternate
    shots: 5
-   spread: 4
+   spread: 12
    shotDelay: 4
 }
   
@@ -48,11 +49,12 @@ bulletType:"BasicBulletType"
   width:15
   height:25
   speed:5
+knockback: 3
   lifeTime:450
   collidesGround:true
   collidesAir:true
-  ammoMultiplier:1
-  damage:24
+  ammoMultiplier:0.5
+  damage:10
 }
 graphite:{
 width: 20
@@ -65,7 +67,8 @@ lifetime: 500
 collidesGround: true
 collidesAir: true
 ammoMultiplier: 1.5
-damage: 16
+knockback: 0.8
+damage: 55
 }
 }
 base: 1-phantasm-base
