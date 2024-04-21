@@ -18,10 +18,9 @@ plastanium/1300
    shots: 5
    spread: 12
    shotDelay: 4
-shootSound: shootBig
-shootEffect: shootBig
 }
-  
+ shootSound: shootBig
+shootEffect: shootBig
 coolant:{
 type:"ConsumeCoolant"
   allowGas:false
