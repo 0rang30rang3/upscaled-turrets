@@ -18,7 +18,7 @@ plastanium/500
    type: ShootAlternate
    shots: 25
    spread: 6
-   shotDelay: 8
+   shotDelay: 1
 }
 shootEffect: shootTitan
 coolant:{
@@ -30,7 +30,7 @@ allowLiquid:true
 inaccuracy:0
   range:440
   category:"turret"
-  shootSound:"shootTitan"
+  shootSound:"shootXylo_1"
 outlineColor:"42413e"
   research:{
 parent:"core-shard"
@@ -54,7 +54,7 @@ knockback: 3
   lifeTime:450
   collidesGround:true
   collidesAir:true
-  ammoMultiplier:1
+  ammoMultiplier:2
   damage:200
 }
 }
